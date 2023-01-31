@@ -1,5 +1,5 @@
 {
-  "name": "example-typescript-package",
+  "name": "@bugofbook/react-send-mail",
   "version": "1.0.0",
   "description": "",
   "main": "dist/cjs/index.js",
@@ -19,7 +19,7 @@
     "package": "npm run build && npm pack",
     "test": "jest --no-cache --runInBand",
     "test:cov": "jest --coverage --no-cache --runInBand",
-    "addscope": "node tools/packagejson name @tomchen/example-typescript-package",
+    "addscope": "node tools/packagejson name @bugofbook/react-send-mail",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
@@ -44,13 +44,13 @@
   ],
   "author": "Tom Chen <tomchen.org@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/tomchen/example-typescript-package",
+  "homepage": "https://github.com/bugofbook/react-send-mail",
   "repository": {
     "type": "git",
-    "url": "git@github.com:tomchen/example-typescript-package.git"
+    "url": "git@github.com:bugofbook/react-send-mail.git"
   },
   "bugs": {
-    "url": "https://github.com/tomchen/example-typescript-package/issues"
+    "url": "https://github.com/bugofbook/react-send-mail/issues"
   },
   "devDependencies": {
     "@babel/core": "^7.20.12",
